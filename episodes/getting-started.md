@@ -37,8 +37,10 @@ exercises: 5
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Why Python?
+## なぜパイソンなのか？
 
 Python is a popular programming language for tasks such as data collection, cleaning, and analysis. Python can help you to create reproducible workflows to accomplish repetitive tasks more efficiently. 
+Pythonは、データ収集、クリーニング、分析などのタスクに一般的なプログラミング言語です。Pythonは、反復的なタスクをより効率的に達成するために、再現可能なワークフローを作成するのに役立ちます。
 
 This lesson works with a series of CSV files of circulation data from the Chicago Public Library system to demonstrate how to use Python to clean, analyze, and visualize usage data that spans over the course of multiple years. 
 
