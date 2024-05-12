@@ -145,11 +145,11 @@ Once you have created the `lc-python` directory on your Desktop, you can start J
 
 1. Press the <kbd>cmd</kbd> + <kbd>spacebar</kbd> keys and search for `Terminal`. Click the result or press <kbd>return</kbd>. (You can also find `Terminal` in your `Applications` folder, under `Utilities`.)
 
-1.<kbd>cmd</kbd> + <kbd>スペースバー</kbd>キーを押して、「ターミナル」を検索します。結果をクリックするか、<kbd>return</kbd>を押します。(「アプリケーション」フォルダの「ユーティリティ」の下にある「ターミナル」を見つけることもできます。)
+1. <kbd>cmd</kbd> + <kbd>スペースバー</kbd>キーを押して、「ターミナル」を検索します。結果をクリックするか、<kbd>return</kbd>を押します。(「アプリケーション」フォルダの「ユーティリティ」の下にある「ターミナル」を見つけることもできます。)
 
 2. After you have launched Terminal, change directories to the `lc-python` folder you created earlier and type `jupyter lab`:
 
-2.ターミナルを起動したら、先ほど作成した「lc-python」フォルダにディレクトリを変更し、「jupyter lab」と入力します。
+2. ターミナルを起動したら、先ほど作成した「lc-python」フォルダにディレクトリを変更し、「jupyter lab」と入力します。
 
 ```bash
 $ cd ../Desktop/lc-python
@@ -166,11 +166,11 @@ JupyterLabサーバーを起動するには、Anaconda Promptにアクセスす�
 
 1. Press the <kbd>Windows Logo Key</kbd> and search for `Anaconda Prompt`, click the result or press enter.
 
-1.<kbd>Windowsロゴキー</kbd>を押して「アナコンダプロンプト」を検索し、結果をクリックするか、Enterキーを押します。
+1. <kbd>Windowsロゴキー</kbd>を押して「アナコンダプロンプト」を検索し、結果をクリックするか、Enterキーを押します。
 
 2. Once you have launched the Anaconda Prompt, type the command:
 
-2.アナコンダプロンプトを起動したら、次のコマンドを入力します。
+2. アナコンダプロンプトを起動したら、次のコマンドを入力します。
 
 ```bash
 $ jupyter lab
