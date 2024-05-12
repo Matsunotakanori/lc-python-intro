@@ -7,7 +7,9 @@ exercises: 5
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Learners are aware of applications for Python in library and information-science work environments.
+- 学習者は、図書館や情報科学の作業環境におけるPythonのアプリケーションを認識しています。
 - Learners can launch JupyterLab and create a Jupyter Notebook.
+- 学習者はJupyterLabを起動し、Jupyter Notebookを作成できます。
 - Learners are able to navigate the JupyterLab interface.
 - Learners are able to write and run Python cells in a notebook.
 - Learners are able to save their code as an iPython notebook (.ipynb file).
@@ -30,6 +32,8 @@ This lesson works with a series of CSV files of circulation data from the Chicag
 :::::::::::::::::::::::::::::::::::::::  challenge
 ## Python in Libraries
 There are a lot of ways that library and information science folks use Python in their work. Go around the room and have helpers and co-teachers share how they have used Python.
+## 図書館のPython
+図書館や情報科学の人々が仕事でPythonを使う方法はたくさんあります。部屋を歩き回って、ヘルパーや共同教師にPythonの使用方法を共有してもらいます。
 
 Learners: Can you think of other ways to use Python in libraries? Do you have hopes for how you'd like to use Python in the future?
 
