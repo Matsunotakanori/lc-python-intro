@@ -7,19 +7,25 @@ exercises: 5
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Learners are aware of applications for Python in library and information-science work environments.
-- Learners can launch JupyterLab and create a Jupyter Notebook.
-- Learners are able to navigate the JupyterLab interface.
-- Learners are able to write and run Python cells in a notebook.
-- Learners are able to save their code as an iPython notebook (.ipynb file).
 - 学習者は、図書館や情報科学の作業環境におけるPythonのアプリケーションを認識しています。
-
+- Learners can launch JupyterLab and create a Jupyter Notebook.
 - 学習者はJupyterLabを起動し、Jupyter Notebookを作成できます。
 
+- Learners are able to navigate the JupyterLab interface.
 - 学習者はJupyterLabインターフェースをナビゲートできます。
-
+- 
+- Learners are able to write and run Python cells in a notebook.
 - 学習者は、ノートブックにPythonセルを書いて実行することができます。
-
+- Learners are able to save their code as an iPython notebook (.ipynb file).
 - 学習者はコードをiPythonノートブック(.ipynbファイル)として保存できます。
+
+
+
+
+
+
+
+
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
