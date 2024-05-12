@@ -30,9 +30,8 @@ exercises: 5
 :::::::::::::::::::::::::::::::::::::::: questions
 
 - How do I use JupyterLab?
-- How can I run Python code in JupyterLab?
 - JupyterLabはどのように使用しますか?
-
+- How can I run Python code in JupyterLab?
 - JupyterLabでPythonコードを実行するにはどうすればよいですか?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
