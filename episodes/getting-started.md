@@ -342,6 +342,5 @@ You can also use "hotkeys"" to change Jupyter cells from Code to Markdown and ba
 - You can use a JupyterLab notebook to edit and run Python.
 - JupyterLabノートブックを使用して、Pythonを編集および実行できます。
 - Notebooks can include both code and markdown (text) cells.
-- Notebooks can include both code and markdown (text) cells.
-- 
+- ノートブックには、コードとマークダウン(テキスト)の両方のセルを含めることができます。 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
