@@ -13,7 +13,6 @@ exercises: 5
 
 - Learners are able to navigate the JupyterLab interface.
 - 学習者はJupyterLabインターフェースをナビゲートできます。
-- 
 - Learners are able to write and run Python cells in a notebook.
 - 学習者は、ノートブックにPythonセルを書いて実行することができます。
 - Learners are able to save their code as an iPython notebook (.ipynb file).
