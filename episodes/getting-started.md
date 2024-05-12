@@ -329,6 +329,7 @@ You can also use "hotkeys"" to change Jupyter cells from Code to Markdown and ba
 - <kbd>M</kbd>キーを押して、セルをMarkdownに変換します。
 - Press the <kbd>y</kbd> key to convert the cell back to Code.
 - <kbd>y</kbd>キーを押して、セルをコードに戻します。
+- 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 [anaconda]: https://docs.anaconda.com/anaconda/install/
