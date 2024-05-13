@@ -224,6 +224,8 @@ A
 
 A slice is a part of a string that we can reference using `[start:stop]`, where `start` is the index of the first character we want and `stop` is the last character. Referencing a string slice does not change the contents of the original string. Instead, the slice returns a copy of the part of the original string we want. 
 
+スライスは、`[start:stop]`を使用して参照できる文字列の一部であり、`start`は最初の文字のインデックスで、`stop`は最後の文字です。文字列スライスを参照しても、元の文字列の内容は変更されません。代わりに、スライスは必要な元の文字列の一部のコピーを返します。
+
 ```python
 library[0:3]
 ```
@@ -234,9 +236,14 @@ Ale
 
 Note that in the example above, `library[0:3]` begins with zero, which refers to the first element in the string, and ends with a 3. When working with slices the end point is interpreted as going up to, *but not including* the index number provided. In other words, the character in the index position of 3 in the string `Alexandria` is `x`, so the slice `[0:3]` will go up to but not include that character, and therefore give us `Ale`.
 
+上記の例では、`library[0:3]`は、文字列の最初の要素を参照するゼロで始まり、3で終わることに注意してください。スライスを操作する場合、エンドポイントは、提供されたインデックス番号まで*ただし、含まれない*と解釈されます。言い換えれば、文字列`Alexandria`の3のインデックス位置の文字は`x`なので、スライス`[0:3]`はその文字まで上がりますが、その文字は含まれません。したがって、`Ale`を与えます。
+
 ## Use the built-in function `len` to find the length of a string.
+## 組み込み関数 `len` を使用して、文字列の長さを見つけます。
 
 The `len()`function will tell us the length of an item. In the case of a string, it will tell us how many characters are in the string. 
+
+`len()`関数は、アイテムの長さを教えてくれます。文字列の場合、文字列内の文字数がわかります。
 
 ```python
 len('Babel')
@@ -247,8 +254,11 @@ len('Babel')
 ```
 
 ## Variables only change value when something is assigned to them.
+## 変数は、何かが割り当てられたときにのみ値を変更します。
 
 Once a Python variable is assigned it will not change value unless the code is run again. The value of `older_age` below does not get updated when we change the value of `age` to `50`, for example:
+
+Python変数が割り当てられると、コードが再度実行されない限り、値は変更されません。たとえば、以下の「older_age」の値は、「age」の値を「50」に変更しても更新されません。
 
 ```python
 age = 42
@@ -263,13 +273,20 @@ Older age is 45 and age is 50
 
 A variable in Python is analogous to a sticky note with a name written on it: assigning a value to a variable is like putting a sticky note on a particular value. When we assigned the variable `older_age`, it was like we put a sticky note with the name `older_age` on the value of `45`. Remember, `45` was the result of `age + 3` because `age` at that point in the code was equal to `42`. The `older_age` sticky note (variable) was never attached to (assigned to) another value, so it doesn't change when the `age` variable is updated to be `50`.
 
+Pythonの変数は、名前が書かれた付箋に似ています。変数に値を割り当てることは、特定の値に付箋を置くようなものです。変数「older_age」を割り当てたとき、「45」の値に「older_age」という名前の付箋を貼ったようなものでした。コードのその時点での「年齢」が「42」に等しかったので、「45」は「年齢+ 3」の結果だったことを覚えておいてください。`older_age`付箋(変数)は別の値に添付(割り当て)されなかったため、`age`変数が`50`に更新されても変更されません。
+
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## F-string Syntax
+## F文字列構文
 
 Use an f-string to construct output in Python by filling in the blanks with variables and f-string syntax to tell Christina how old she will be in 10 years.
 
+f文字列を使用して、変数とf文字列構文で空白を埋めてPythonで出力を構築し、クリスティーナに10年後に何歳になるかを伝えます。
+
 Tip: You can combine variables and mathematical expressions in an f-string in the same way you can in variable assignment. We'll see more examples of dynamic f-string output as we go through the lesson.
+
+ヒント: 変数の割り当てと同じように、変数と数学式をf文字列に組み合わせることができます。レッスンを進むにつれて、動的f文字列出力のより多くの例が表示されます。
 
 ```python
 name = 'Christina'
@@ -281,6 +298,7 @@ f'{____}, you will be ______ in 10 years.'
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 ```python
 f'{name}, you will be {age + 10} in 10 years.'
@@ -301,10 +319,18 @@ f'{name}, you will be {age + 10} in 10 years.'
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Swapping Values
+## スワップ値
 
 Draw a table showing the values of the variables in this program
 after each statement is executed.
 In simple terms, what do the last three lines of this program do?
+
+このプログラムの変数の値を示す表を描画する
+
+各ステートメントが実行された後。
+
+簡単に言えば、このプログラムの最後の3行は何をしますか?
+
 
 ```python
 x = 1.0
@@ -317,6 +343,7 @@ y = swap
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 ```
 swap = x  #  x = 1.0 y = 3.0 swap = 1.0
@@ -327,6 +354,10 @@ y = swap  #  x = 3.0 y = 1.0 swap = 1.0
 These three lines exchange the values in `x` and `y` using the `swap`
 variable for temporary storage. This is a fairly common programming idiom.
 
+これらの3行は、`swap`を使用して`x`と`y`の値を交換します
+
+一時保管用の変数。これはかなり一般的なプログラミングの慣用句です。
+
 
 :::::::::::::::::::::::::
 
@@ -335,10 +366,18 @@ variable for temporary storage. This is a fairly common programming idiom.
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Predicting Values
+## 値の予測
 
 What is the final value of `position` in the program below?
 (Try to predict the value without running the program,
 then check your prediction.)
+
+以下のプログラムの「位置」の最終値は何ですか？
+
+(プログラムを実行せずに値を予測してみてください。
+
+その後、あなたの予測を確認してください。)
+
 
 ```python
 initial = "left"
@@ -349,6 +388,7 @@ initial = "right"
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 ```python
 initial = "left"  # Initial is assigned the string "left"
@@ -363,6 +403,8 @@ left
 
 The last assignment to position was "left"
 
+ポジションへの最後の割り当ては「左」でした
+
 
 
 :::::::::::::::::::::::::
@@ -372,16 +414,26 @@ The last assignment to position was "left"
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Can you slice integers?
+## 整数をスライスできますか?
 
 If you assign `a = 123`,
 what happens if you try to get the second digit of `a`?
 
+`a = 123`を割り当てると、
+
+「A」の2桁目を取得しようとするとどうなりますか?
+
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 Numbers are not stored in the written representation,
 so they can't be treated like strings.
+
+数字は書かれた表現に格納されません。
+
+だから、彼らは文字列のように扱うことはできません。
 
 ```python
 a = 123
@@ -400,8 +452,11 @@ TypeError: 'int' object is not subscriptable
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Slicing
+## スライス
 
 We know how to slice using an explicit start and end point:
+
+私たちは、明示的な開始点と終了点を使用してスライスする方法を知っています。
 
 ```python
 library_name = 'Library of Babel'
@@ -413,20 +468,30 @@ f'library_name[1:3] is: {library_name[1:3]}'
 
 But we can also use implicit and negative index values when we define a slice. Try the following (replacing `low` and `high` with index positions of your choosing) to figure out how these different forms of slicing work:
 
+しかし、スライスを定義するときに、暗黙のインデックス値と負のインデックス値を使用することもできます。これらのさまざまな形式のスライスがどのように機能するかを把握するために、以下（「低」と「高」を選択したインデックス位置に置き換える）を試してみてください。
+
 1. What does `library_name[low:]` (without a value after the colon) do?
+1. `library_name[low:]`(コロンの後に値なし)は何をしますか?
 2. What does `library_name[:high]` (without a value before the colon) do?
+2.` library_name[:high]`(コロンの前に値なし)は何をしますか?
 3. What does `library_name[:]` (just a colon) do?
+3. `library_name[:]`(ただのコロン)は何をしますか?
 4. What does `library_name[number:negative-number]` do?
+4. `library_name[number:negative-number]`は何をしますか?
 
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 1. It will slice the string, starting at the `low` index and stopping at the end of the string.
+1. 文字列をスライスし、`low`インデックスから始まり、文字列の末尾で停止します。
 2. It will slice the string, starting at the beginning on the string, and ending an element before the `high` index.
+2. 文字列をスライスし、文字列の先頭から始まり、「high」インデックスの前に要素を終了します。
 3. It will print the entire string.
+3. 文字列全体が印刷されます。
 4. It will slice the string, starting the `number` index, and ending a distance of the absolute value of `negative-number` elements from the end of the string.
-  
+4. 字列をスライスし、「number」インデックスを開始し、文字列の末尾から「negative-number」要素の絶対値の距離を終了します。  
   
 
 :::::::::::::::::::::::::
@@ -436,15 +501,23 @@ But we can also use implicit and negative index values when we define a slice. T
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Fractions
+## 分数
 
 What type of value is 3.4?
 How can you find out?
 
+3.4はどのような種類の値ですか?
+
+どうやって知ることができますか?
+
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 It is a floating-point number (often abbreviated "float").
+
+それは浮動小数点数(しばしば「float」と略される)です。
 
 ```python
 print(type(3.4))
@@ -461,14 +534,20 @@ print(type(3.4))
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Automatic Type Conversion
+## 自動型変換
 
 What type of value is 3.25 + 4?
+
+3.25 + 4はどのような値ですか?
 
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 It is a float: integers are automatically converted to floats as necessary.
+
+それは浮動小数点数です: 整数は必要に応じて自動的に浮動小数点数に変換されます。
 
 ```python
 result = 3.25 + 4
@@ -487,19 +566,33 @@ print(result, 'is', type(result))
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
 - Use variables to store values.
+- 変数を使用して値を格納します。
 - Use `print` to display values.
+- 「印刷」を使用して値を表示します。
 - Format output with f-strings.
+- f文字列で出力をフォーマットします。
 - Variables persist between cells.
+- 変数は細胞間で持続する。
 - Variables must be created before they are used.
+- 変数は使用する前に作成する必要があります。
 - Variables can be used in calculations.
+- 変数は計算に使用できます。
 - Use an index to get a single character from a string.
+- インデックスを使用して、文字列から1文字を取得します。
 - Use a slice to get a portion of a string.
+- スライスを使用して、文字列の一部を取得します。
 - Use the built-in function `len` to find the length of a string.
+- 組み込み関数`len`を使用して、文字列の長さを見つけます。
 - Python is case-sensitive.
+- Pythonは大文字と小文字を区別します。
 - Every object has a type.
+- すべてのオブジェクトには型があります。
 - Use the built-in function `type` to find the type of an object.
+- 組み込み関数「type」を使用して、オブジェクトのタイプを検索します。
 - Types control what operations can be done on objects.
+- タイプは、オブジェクトに対して実行できる操作を制御します。
 - Variables only change value when something is assigned to them.
+- 変数は、何かが割り当てられている場合にのみ値を変更します。
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
