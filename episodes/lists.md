@@ -7,25 +7,37 @@ exercises: 10
 ::::::::::::::::::::::::::::::::::::::: objectives
 
 - Create collections to work with in Python using lists.
+- リストを使用してPythonで作業するコレクションを作成します。
 - Write Python code to index, slice, and modify lists through assignment and method calls.
+- 割り当てとメソッド呼び出しを通じて、リストをインデックス、スライス、変更するためのPythonコードを作成します。
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 :::::::::::::::::::::::::::::::::::::::: questions
 
 - How can I store multiple items in a Python variable?
+- Python変数に複数のアイテムを保存するにはどうすればよいですか?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## A list stores many values in a single structure.
+## リストは、多くの値を単一の構造に格納します。
+
 The most popular kind of data collection in Python is the list. Lists have two primary important characteristics:
+Pythonで最も人気のある種類のデータ収集はリストです。リストには2つの主要な重要な特徴があります。
 
 1. They are mutable, i.e., they can be changed after they are created.
+1. それらは変更可能です。つまり、作成後に変更できます。
 2. They are heterogeneous, i.e., they can store values of many different types.
+2. それらは異種です。つまり、さまざまなタイプの値を格納できます。
 
 In the dataset we will be working with soon, we'll look at the circulation numbers from a variety of branch libraries in Chicago, Illinois (USA). Each branch library has some metadata associated with it, including its zip (postal) code. We could use a Python list to organize some of those zip codes.
 
+まもなく作業するデータセットでは、米国イリノイ州シカゴのさまざまな支部図書館の発行部数を見ていきます。各ブランチライブラリには、郵便番号を含むいくつかのメタデータが関連付けられています。Pythonリストを使用して、それらの郵便番号の一部を整理することができます。
+
 To create a new list, you can just put some values in square brackets with commas in between.
+
+新しいリストを作成するには、間にカンマで囲まれた角括弧内にいくつかの値を入れるだけです。
 
 ```python
 zip_codes = [60625, 60827, 60632, 60644, 60634]
@@ -38,6 +50,8 @@ f'Zip codes: {zip_codes}'
 
 We can use `len()` to find out how many values are in a list.
 
+`len()` を使用して、リスト内の値の数を調べることができます。
+
 ```python
 f'Number of zip codes: {len(zip_codes)}'
 ```
@@ -47,8 +61,11 @@ f'Number of zip codes: {len(zip_codes)}'
 ```
 
 ## Use an item's index to fetch it from a list.
+## アイテムのインデックスを使用して、リストから取得します。
 
 In the same way we used index numbers for strings, we can reference elements and slices in a list.
+
+文字列にインデックス番号を使用したのと同じように、リスト内の要素とスライスを参照できます。
 
 ```python
 print(f'1st item of zip_codes: {zip_codes[0]}')
@@ -61,8 +78,11 @@ The first three zip codes: [60625, 60827, 60632]
 ```
 
 ## Reassign list values with their index.
+## インデックスでリスト値を再割り当てします。
 
 Use an index value along with your list variable to replace a value from the list.
+
+リスト変数と一緒にインデックス値を使用して、リストの値を置き換えます。
 
 ```python
 print(f'zip_codes was: {zip_codes}')
@@ -77,6 +97,7 @@ zip_codes is now: [60640, 60827, 60632, 60644, 60634]
 
 
 ### Character strings are immutable.
+### 文字列は不変です。
 
 Unlike lists, we cannot change the characters in a string using its index value. In other words strings are *immutable* (cannot be changed in-place after creation), while lists are *mutable*: they can be modified in place. Python considers the string to be a single value with parts, not a collection of values.
 
