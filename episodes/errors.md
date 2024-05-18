@@ -138,6 +138,11 @@ ping
 1. Predict what each of the `print` statements in the program below will print.
 2. Does `max(len(rich), poor)` run or produce an error message?
   If it runs, does its result make any sense?
+1. 以下のプログラムの「印刷」ステートメントのそれぞれが何を印刷するかを予測します。
+
+2. `max(len(rich), poor)`はエラーメッセージを実行または生成しますか?
+
+それが実行された場合、その結果は理にかなっていますか?
 
 ```python
 rich = "gold"
@@ -149,6 +154,7 @@ print(max(len(rich), len(poor)))
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 ```
 tin
@@ -163,14 +169,20 @@ TypeError: '>' not supported between instances of 'str' and 'int'
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Why Not?
+## なぜですか?
 
 Why don't `max` and `min` return `None` when they are given no arguments?
+
+引数が与えられていないのに、なぜ「max」と「min」は「None」を返さないのですか?
 
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 Both functions require an argument to execute
+
+どちらの関数も実行するために引数が必要です
 
 ```python
 print(max())
@@ -187,15 +199,25 @@ TypeError: max expected 1 arguments, got 0
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Last Character of a String
+## 文字列の最後の文字
 
 If Python starts counting from zero,
 and `len` returns the number of characters in a string,
 what index expression will get the last character in the string `name`?
 (Note: we will see a simpler way to do this in a later episode.)
 
+Pythonがゼロから数え始めると、
+
+そして、`len`は文字列内の文字数を返します。
+
+文字列「name」の最後の文字を取得するインデックス式は何ですか?
+
+（注：後のエピソードでこれを行うためのより簡単な方法が表示されます。）
+
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 `name[len(name) - 1]`
 
@@ -210,6 +232,11 @@ what index expression will get the last character in the string `name`?
 - Python reports a syntax error when it can't understand the source of a program.
 - Python reports a runtime error when something goes wrong while a program is executing.
 - Fix syntax errors by reading the source code, and runtime errors by tracing the program's execution.
+- Pythonは、プログラムのソースを理解できないときに構文エラーを報告します。
+
+- Pythonは、プログラムの実行中に何か問題が発生すると、ランタイムエラーを報告します。
+
+- ソースコードを読んで構文エラーを修正し、プログラムの実行をトレースしてランタイムエラーを修正します。
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
