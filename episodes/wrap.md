@@ -78,9 +78,9 @@ Take a few minutes to think about what you learned during the workshop. Consider
 1. Are there ways for you to implement Python in your work moving forward?
 2. Do you have any questions or confusion about how you might implement Python in a particular workflow? 
 
-1.今後の作業でPythonを実装する方法はありますか?
+1. 今後の作業でPythonを実装する方法はありますか?
 
-2.特定のワークフローにPythonを実装する方法について、質問や混乱はありますか?
+2. 特定のワークフローにPythonを実装する方法について、質問や混乱はありますか?
 
 With the time remaining, discuss these topics with your instructors, helpers, and co-learners. 
 
