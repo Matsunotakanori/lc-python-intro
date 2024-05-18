@@ -1,6 +1,6 @@
 ---
-title: 4. Built-in Functions and Help
-タイトル: 組み込み機能とヘルプ
+title: Built-in Functions and Help
+タイトル: 4. 組み込み機能とヘルプ
 teaching: 15
 exercises: 10
 ---
