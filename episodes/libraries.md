@@ -394,6 +394,7 @@ This gives us, for example, the count, minimum, maximum, and mean values from ea
 2. Rewrite the program so that it uses `import` *without* `as`.
 3. Which form do you find easier to read?
 
+
 1. 以下のプログラムが「0123456789」を印刷するように空白を埋めてください。
 2. `import` *without* `as` を使用するようにプログラムを書き換えます。
 3. どのフォームが読みやすいと思いますか?
@@ -466,6 +467,7 @@ day = 26
 1. Which [standard library][stdlib] module could help you?
 2. Which function would you select from that module?
 3. Try to write a program that uses the function.
+
 
 1. どの[標準ライブラリ][stdlib]モジュールが役立ちますか?
 2. そのモジュールからどの機能を選択しますか？
