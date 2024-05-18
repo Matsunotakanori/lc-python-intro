@@ -19,3 +19,5 @@ This lesson is an introduction to programming in Python for library and informat
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/getting-started.md
+
