@@ -146,6 +146,8 @@ df.tail()
 
 Table: Tail of df
 
+テーブル: dfの尾
+
 | | branch                    | address             | city    |   zip code |   january |   february |   march |   april |    may |   june |   july |   august |   september |   october |   november |   december |     ytd |   year|
 |-----:|:--------------------------|:--------------------|:--------|-----------:|----------:|-----------:|--------:|--------:|-------:|-------:|-------:|---------:|------------:|----------:|-----------:|-----------:|--------:|-------:|
 |  998 | Woodson Regional          | 9525 S. Halsted St. | Chicago |      60628 |      8074 |       7208 |    8580 |    9424 |   8548 |   9093 |   9747 |     9609 |        9412 |      9631 |       8851 |       7748 |  105925 |   2014 |
@@ -246,6 +248,8 @@ df_long
 ```
 Table: View of the df_long table
 
+テーブル: df_longテーブルのビュー
+
 |    | branch         | address                 | city    |   zip code |    ytd |   year | month   |   circulation |
 |---:|:---------------|:------------------------|:--------|-----------:|-------:|-------:|:--------|--------------:|
 |  0 | Albany Park    | 5150 N. Kimball Ave.    | Chicago |      60625 | 120059 |   2011 | january |          8427 |
@@ -317,6 +321,8 @@ df_long
 
 Table: df_long after removing rows
 
+テーブル: 行を削除した後のdf_long
+
 |    | branch         | address                 | city    |   zip code |    ytd |   year | month   |   circulation |
 |---:|:---------------|:------------------------|:--------|-----------:|-------:|-------:|:--------|--------------:|
 |  0 | Albany Park    | 5150 N. Kimball Ave.    | Chicago |      60625 | 120059 |   2011 | january |          8427 |
@@ -371,6 +377,8 @@ df_long[df_long['circulation'] > 10000]
 ```
 Table: df_long rows with circulation greater than 10,000
 
+表：循環が10,000を超えるdf_long行
+
 |    | branch               | address                 | city    |   zip code |    ytd |   year | month   |   circulation |
 |---:|:---------------------|:------------------------|:--------|-----------:|-------:|-------:|:--------|--------------:|
 |  4 | Austin-Irving        | 6100 W. Irving Park Rd. | Chicago |      60634 | 165634 |   2011 | january |         12593 |
@@ -394,6 +402,8 @@ df_long[['branch', 'circulation']]
 ```
 
 Table: Two columns from df_long
+
+表: df_longの2つの列
 
 |    | branch         |   circulation |
 |---:|:---------------|--------------:|
@@ -419,6 +429,9 @@ df_long.sort_values('circulation', ascending=False)
 
 Table: Sorting df_long by highest circulation
 
+表: df_longを最高循環で並べ替える
+
+
 |      | branch                           | address          | city    |   zip code |    ytd |   year | month   |   circulation |
 |-----:|:---------------------------------|:-----------------|:--------|-----------:|-------:|-------:|:--------|--------------:|
 | 2037 | Harold Washington Library Center | 400 S. State St. | Chicago |      60605 | 966720 |   2011 | march   |         89122 |
@@ -443,6 +456,8 @@ df_long.groupby('branch')['circulation'].agg(total_circulation='sum', mean_circu
 ```
      
 Table: df_long aggregated by circulation sums and means
+
+表：循環合計と平均で集計されたdf_long
      
 | branch         |   total_circulation |   mean_circulation |
 |:---------------|--------------------:|-------------------:|
@@ -486,6 +501,7 @@ df_long.groupby(['branch', 'month'])['circulation'].agg(['sum', 'mean'])
 ```
 
 Table: df_long sums and means grouped by multiple columns
+表: df_long 複数の列でグループ化された合計と平均
 
 |   branch      |    month                |   sum |    mean |
 |:----------------------------|------:|--------:|
