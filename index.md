@@ -20,4 +20,15 @@ This lesson is an introduction to programming in Python for library and informat
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/getting-started.md
-
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/variables.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lists.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/functions.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/libraries.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/for-loops.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/looping-data-sets.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/pandas.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/conditionals.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/writing-functions.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/tidy.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/data-visualisation.html
+https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/wrap.html
