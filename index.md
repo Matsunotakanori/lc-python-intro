@@ -19,16 +19,16 @@ This lesson is an introduction to programming in Python for library and informat
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/getting-started.md
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/variables.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lists.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/functions.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/libraries.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/for-loops.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/looping-data-sets.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/pandas.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/conditionals.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/writing-functions.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/tidy.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/data-visualisation.html
-https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/wrap.html
+1. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/getting-started.md
+2. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/variables.html
+3. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lists.html
+4. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/functions.html
+5. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/libraries.html
+6. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/for-loops.html
+7. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/looping-data-sets.html
+8. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/pandas.html
+9. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/conditionals.html
+10. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/writing-functions.html
+11. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/tidy.html
+12. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/data-visualisation.html
+13. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/wrap.html
