@@ -1,5 +1,6 @@
 ---
 title: Errors (and other sandbox items)
+タイトル: エラー (およびその他のサンドボックス項目)
 teaching: 15
 exercises: 10
 ---
@@ -8,6 +9,7 @@ exercises: 10
 
 
 - Correctly describe situations in which SyntaxError and NameError occur.
+- SyntaxErrorとNameErrorが発生する状況を正しく説明してください。
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -15,12 +17,16 @@ exercises: 10
 
 
 - What kind of errors can occur in programs?
+- プログラムではどのようなエラーが発生する可能性がありますか?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Python reports a syntax error when Python's grammar rules have been violated.
+## Pythonは、Pythonの文法規則に違反した場合、構文エラーを報告します。
 
 You've already seen errors when you try to use a function incorrectly, but you can also have errors when you use punctuation incorrectly. Python will run a program up until a point where it encounters an error, and when the grammar of a line of code has produced an error, the program will shut down and output the error.
+
+関数を誤って使用しようとすると、すでにエラーが見られますが、句読点を誤って使用するとエラーが発生する可能性があります。Pythonは、エラーに遭遇するまでプログラムを実行し、コード行の文法がエラーを生成した場合、プログラムはシャットダウンしてエラーを出力します。
 
 ```python
 # Forgot to close the quotation marks around the string.
@@ -42,6 +48,8 @@ SyntaxError: invalid syntax
 
 Let's breakdown each line of this error message:
 
+このエラーメッセージの各行を分解しましょう。
+
 ```python
 print("hello world"
 ```
@@ -58,7 +66,17 @@ SyntaxError: unexpected EOF while parsing
 - Next is the problematic line of code - `print ("hello world"` -  indicating where the problem is found with a `^` pointer.
 - Finally we get the SyntaxError message, which tells us that Python expected an 'EOF' or end of file. It's often helpful to look at the end of the Error message first. Our SyntaxError, in this case, indicates that Python ran through all of the code but expected to find more information. In this case it expected to encounter a closing parenthesis in the `print("hello world")` function. 
 
+- このエラーメッセージの最初の行の最後に、入力の最初の行（「1行目」）に問題があることに注意してください。
+
+- ファイル名の「ipython-input」セクションは、IPythonへの入力で作業していることを示し、ファイル名の「-6-」部分は、ノートブックのセル6でエラーが発生したことを示しています。
+
+- 次は問題のあるコード行です - `print ("hello world"` - `^`ポインタで問題が見つかった場所を示します。
+
+- 最後に、Pythonが「EOF」またはファイルの終了を期待していたことを知らせるSyntaxErrorメッセージが表示されます。多くの場合、最初にエラーメッセージの最後を見ると便利です。この場合、私たちのSyntaxErrorは、Pythonがすべてのコードを実行したが、より多くの情報を見つけることを期待していたことを示しています。この場合、`print("hello world")`関数に閉じ括弧が発生すると予想されます。
+
 ## Python reports a runtime error when something goes wrong while a program is executing.
+
+## Pythonは、プログラムの実行中に何か問題が発生した場合、ランタイムエラーを報告します。
 
 ```python
 age = 53
@@ -71,16 +89,27 @@ NameError: name 'aege' is not defined
 
 You can fix syntax errors by reading the source and runtime errors by tracing execution.
 
+実行をトレースすることで、ソースエラーとランタイムエラーを読み取ることで、構文エラーを修正できます。
+
 
 
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## What Happens When
+## 何が起こるか
 
 1. Explain in simple terms the order of operations in the following program:
   when does the addition happen, when does the subtraction happen,
   when is each function called, etc.
 2. What is the final value of `word`?
+
+1. 次のプログラムの操作の順序を簡単な言葉で説明してください。
+
+足し算はいつ起こるのか、引き算はいつ起こるのか、
+
+各関数がいつ呼び出されるかなど。
+
+2. 「単語」の最終的な値は何ですか?
 
 ```python
 word = 'blah '
@@ -91,6 +120,7 @@ print(word)
 :::::::::::::::  solution
 
 ## Solution
+## 解決策
 
 ```
 ping
@@ -103,6 +133,7 @@ ping
 :::::::::::::::::::::::::::::::::::::::  challenge
 
 ## Spot the Difference
+## 違いを見つける
 
 1. Predict what each of the `print` statements in the program below will print.
 2. Does `max(len(rich), poor)` run or produce an error message?
