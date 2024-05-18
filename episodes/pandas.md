@@ -521,7 +521,15 @@ df.groupby('zip code')['ytd'].mean().sort_values()
 - Sort pandas series with `.sort_values()`.
 - Use `.loc()` and `.iloc()` to pinpoint specific locations in Pandas DataFrames.
 - Save DataFrames to CSV and pickle files using `.to_csv()` and `.to_pickle()`.
+- 組み込みメソッド `.sum()`、`.mean()`、`unique()`、および `nunique()` を使用して、DataFrame の行と列の要約統計を調べます。
 
+- `.groupby()`を使用して、データセットのサブセットを操作します。
+
+- パンダシリーズを`.sort_values()`で並べ替えます。
+
+- `.loc()`と`.iloc()`を使用して、Pandas DataFramesの特定の場所を特定します。
+
+- DataFramesをCSVに保存し、`.to_csv()`と`.to_pickle()`を使用してファイルをピクルスします。
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 
