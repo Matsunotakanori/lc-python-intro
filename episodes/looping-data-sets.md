@@ -1,5 +1,6 @@
 ---
 title: Looping Over Data Sets
+タイトル: 7. データセットのループ
 teaching: 10
 exercises: 10
 ---
