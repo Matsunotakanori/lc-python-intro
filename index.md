@@ -29,6 +29,8 @@ This lesson is an introduction to programming in Python for library and informat
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
 1. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/getting-started.md
 2. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/variables.html
 3. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lists.html
@@ -42,3 +44,7 @@ This lesson is an introduction to programming in Python for library and informat
 11. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/tidy.html
 12. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/data-visualisation.html
 13. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/wrap.html
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
