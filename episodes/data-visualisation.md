@@ -1,6 +1,5 @@
 ---
 title: 'Data Visualisation'
-タイトル： データビジュアライゼーション
 teaching: 20
 exercises: 10
 ---
