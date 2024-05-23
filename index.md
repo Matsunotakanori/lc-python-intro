@@ -26,8 +26,8 @@ This lesson is an introduction to programming in Python for library and informat
 
 詳細については、以下のセットアップ手順を参照してください。
   
-1. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/getting-started.md
-2. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/variables.html
+1.  [pymarc library](https://pypi.org/project/pymarc/) https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/getting-started.md
+2.  [variables](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/variables.html)
 3. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lists.html
 4. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/functions.html
 5. https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/libraries.html
