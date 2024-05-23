@@ -36,9 +36,9 @@ This lesson is an introduction to programming in Python for library and informat
 8.  [pandas](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/pandas.md)
 9.  [conditionals](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/conditionals.md)
 10.  [writing-functions](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/writing-functions.md)
-11.  [tidy](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/tidy.md)
+11.  [tidy](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/tidy.md)
 12.  [data-visualisation](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/data-visualisation.md)
-13.  [wrap](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/wrap.md)
+13.  [wrap](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/wrap.md)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
