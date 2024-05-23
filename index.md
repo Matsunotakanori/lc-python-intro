@@ -27,18 +27,18 @@ This lesson is an introduction to programming in Python for library and informat
 詳細については、以下のセットアップ手順を参照してください。
   
 1.  [getting-started](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/getting-started.md)
-2.  [variables](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/variables.html)
-3.  [lists](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lists.html)
-4.  [functions](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/functions.html)
-5.  [libraries](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/libraries.html)
-6.  [for-loops](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/for-loops.html)
-7.  [looping-data-sets](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/looping-data-sets.html)
-8.  [pandas](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/pandas.html)
-9.  [conditionals](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/conditionals.html)
-10.  [writing-functions](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/writing-functions.html)
-11.  [tidy](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/tidy.html)
-12.  [data-visualisation](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/data-visualisation.html)
-13.  [wrap](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/wrap.html)
+2.  [variables](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/variables.md)
+3.  [lists](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lists.md)
+4.  [functions](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/functions.md)
+5.  [libraries](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/libraries.md)
+6.  [for-loops](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/for-loops.md)
+7.  [looping-data-sets](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/looping-data-sets.md)
+8.  [pandas](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/pandas.md)
+9.  [conditionals](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/conditionals.md)
+10.  [writing-functions](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/writing-functions.md)
+11.  [tidy](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/tidy.md)
+12.  [data-visualisation](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/data-visualisation.md)
+13.  [wrap](https://github.com/Matsunotakanori/lc-python-intro/blob/main/episodes/lc-python-intro/wrap.md)
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
